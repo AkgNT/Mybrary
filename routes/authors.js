@@ -47,18 +47,7 @@ router.post('/', async (req, res) => {
             errorMessage: 'Error creating author'
         })
     }
-    // author.save((err, newAuthor) => {
-    //     if (err) {
-    //         res.render('authors/new', {
-    //             author: author,
-    //             errorMessage: 'Error creating author'
-    //         })
-    //         console.log(err)
-    //     } else {
-    //         //res.redirect(`authors/${newAuthor.id}`)
-    //         res.redirect(`authors`)
-    //     }
-    // })
+
 
 
 })
